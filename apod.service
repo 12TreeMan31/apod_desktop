@@ -1,0 +1,10 @@
+[Unit]
+Description=apod wallpapers
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/apod_desktop
+
+[Install]
+WantedBy=default.target
